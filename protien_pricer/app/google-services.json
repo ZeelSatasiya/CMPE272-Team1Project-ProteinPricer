@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "626542941165",
+    "firebase_url": "https://protien-pricer-default-rtdb.firebaseio.com",
+    "project_id": "protien-pricer",
+    "storage_bucket": "protien-pricer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626542941165:android:c917b85d3a95c978488de4",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626542941165-bim8orngn0a6iprhngf0eei6m2o7t2l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0CJvfe0LxSq5wrv-mNm8K1dE0F-6Tjh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626542941165-26ubp8vjc6i3fuv738b5li2cf4oipkbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626542941165:android:42adf07d4f02dbfe488de4",
+        "android_client_info": {
+          "package_name": "com.example.protein_pricer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626542941165-bim8orngn0a6iprhngf0eei6m2o7t2l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0CJvfe0LxSq5wrv-mNm8K1dE0F-6Tjh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626542941165-26ubp8vjc6i3fuv738b5li2cf4oipkbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626542941165:android:b9e21c28b73407ff488de4",
+        "android_client_info": {
+          "package_name": "com.example.protien_pricer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626542941165-2hhgga1hhiqb4nsspcm83tbvhhgdqqq8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.protien_pricer",
+            "certificate_hash": "509cf31fa87e65b79368d0c455be9ae5b8a8e673"
+          }
+        },
+        {
+          "client_id": "626542941165-g4dmf97uttkeitqsslibjocs0d5k2n0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.protien_pricer",
+            "certificate_hash": "bd78ce1c43cc2052867fb30aad84abe1c016bf5e"
+          }
+        },
+        {
+          "client_id": "626542941165-bim8orngn0a6iprhngf0eei6m2o7t2l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0CJvfe0LxSq5wrv-mNm8K1dE0F-6Tjh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626542941165-26ubp8vjc6i3fuv738b5li2cf4oipkbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

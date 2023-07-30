@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SavedCalc">
+
+    <TextView
+        android:id="@+id/calc_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/calc_brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:layout_below="@+id/calc_desc"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/calc_serving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="serving size"
+        android:layout_below="@+id/calc_brand"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/protein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="protein"
+        android:layout_below="@+id/calc_serving"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/carbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="carbs"
+        android:layout_toRightOf="@+id/protein"
+        android:layout_below="@+id/calc_serving"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/fat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fat"
+        android:layout_toRightOf="@+id/carbs"
+        android:layout_below="@+id/calc_serving"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/kcal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kcal"
+        android:layout_toRightOf="@+id/fat"
+        android:layout_below="@+id/calc_serving"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/delete_button"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/price"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@+id/calculate_button"
+        android:background="#F44336"
+        android:backgroundTint="#FF0707"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/home_button_calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="new search"
+        android:layout_below="@+id/price"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_below="@+id/price"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/home_button_calc"/>
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calc_result"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="price ($)"
+        android:inputType="number|numberDecimal"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/servings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calc_result"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@+id/price"
+        android:ems="10"
+        android:hint="number of servings"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/calc_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/carbs"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="24sp" />
+
+
+
+</RelativeLayout>
